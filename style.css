@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img/pexels-daniel-absi-952670.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    width: 1600px;
+    height: 75px;
+    margin-left: 100px;
+}
+.icon{
+    width: 570px;
+    float: left;
+    height: 70px;
+    margin-left: 40px;
+}
+.logo{
+    color: blue;
+    font-size: 75px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.content{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.heading2{
+  font-family: 'Times New Roman';
+  height: 40px;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+}
+.projects{
+  color: blueviolet;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn. a:hover{
+    background-color: wheat;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+
+.container{
+  display: flex;
+}
+.index{
+  height: 300px;
+  margin: 30px;
+  padding: 0%;
+}
+img{
+  height: 300px;
+} 
+.image {
+  position: relative;
+  width: 300px; /* Adjust width and height as needed */
+  height: 300px; /* Adjust width and height as needed */
+  overflow: hidden;
+  transition: .5s;
+  padding: 3%;
+}
+.text{
+  height: 30px;
+  width: 300px;
+  padding: 2%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 150px;
+ color: white;   
+  transition: .5s;
+}
+.p{
+  font-size: 15px;
+  margin: 5px;
+  visibility: hidden;
+  opacity: 0;
+}
+.index:hover{
+  cursor: pointer;
+}
+.index:hover.text{
+  height: 100px;
+  bottom: 100px;
+  background: black;
+}
+.index:hover .p{
+    opacity: 1;
+  visibility: visible;
+}
+.index:hover .image{
+  transform: scale(1.1);
+}
+.container1{
+  display: flex;
+}
+.index1{
+  height: 300px;
+  margin: 30px;
+  padding: 0%;
+}
+img{
+  height: 300px;
+} 
+.image1 {
+  position: relative;
+  width: 300px; /* Adjust width and height as needed */
+  height: 300px; /* Adjust width and height as needed */
+  overflow: hidden;
+  transition: .5s;
+  padding: 3%;
+}
+.text1{
+  height: 30px;
+  width: 300px;
+  padding: 2%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 150px;
+ color: white;   
+  transition: .5s;
+}
+.p1{
+  font-size: 15px;
+  margin: 5px;
+  visibility: hidden;
+  opacity: 0;
+}
+.index1:hover{
+  cursor: pointer;
+}
+.index1:hover.text1{
+  height: 100px;
+  bottom: 100px;
+  background: black;
+}
+.index1:hover .p1{
+    opacity: 1;
+  visibility: visible;
+}
+.index1:hover .image1{
+  transform: scale(1.1);
+}
+.footer{
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 0.5rem;
+    background: black;
+}
+.footer-content h4{
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 30px;
+}
+.footer-content li{
+  margin-bottom: 0px;
+}
+.footer-content li a{
+  display: block;
+  color: #d6d6d6;
+  font-size: 15px;
+  font-weight: 100;
+  transition: all .40s ease;
+}
+.footer-content li a:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: #fff;
+}
+.footer-content p{
+  color: #d6d6d6;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 40px 0;
+  width: 300px;
+}
+.icons a{
+  display: inline-block;
+  font-size: 22px;
+  color: #d6d6d6;
+  margin-right: 17px;
+  transition: all .40s ease;
+}
+.icons a:hover{
+  color: #fff;
+  transform: translateY(-5px);
+}
+@media (max-width:1120px){
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+  }
+}
+@media (max-width:700px){
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 2.5rem;
+}
+.footer-heading{
+  color: blue;
+  font-size: 40px;
+  margin-top: 40px;
+}
+.extra-h2{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: -150px;
+}
+.extra{
+  margin: 150px auto;
+  width: 70%; 
+}
+.images-extra{
+  max-width: 500px;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.images-extra2{
+  max-width: 500px;
+  float: right;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.extra1{
+  margin: 300px auto;
+  width: 70%; 
+}
+.extra2{
+  margin: 300px auto;
+  width: 70%; 
+}
+.extra3{
+  margin: 300px auto;
+  width: 70%; 
+}
+
+.hero{
+  width: 100%;
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+form{
+  width: 90%;
+  max-width: 600px;
+}
+.input-group{
+  margin-bottom: 30px;
+  position: relative;
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+  background: transparent;
+  font-size: 15px;
+}
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: black;
+  cursor: text;
+  transition: 0.2s;
+}
+button{
+  padding: 10px 0;
+  color: black;
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+  top: -35px;
+  font-size: 14px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row .input-group{
+  flex-basis: 48%;
+}
